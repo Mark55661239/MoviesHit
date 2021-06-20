@@ -433,7 +433,6 @@ public class ArticleDAO implements ArticleDAO_interface{
 	public Set<LikeVO> getLikesByArticle(Integer articleno) {
 		Set<LikeVO> set = new LinkedHashSet<LikeVO>();
 		LikeVO likeVO = null;
-		System.out.println("articleno = " + articleno);
 		Connection con = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
